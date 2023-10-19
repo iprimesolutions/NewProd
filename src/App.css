@@ -1,17 +1,24 @@
 .App {
+  margin: 2% auto;
+  /* padding: 80px 0; */
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form label {
+  margin-bottom: 10px; /* Adjust the value to control the space between labels */
 }
+button[type="submit"] {
+  margin-right: 50px;
+}
+/* const formStyle = {
+  textAlign: 'left', // Align form content to the left */
+/* }; */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.AppStyle {
+  padding: 80px ;
+  text-align: 'center';
+  margin-top: '20px'; 
+  margin-right: '10px';
   }
-}
 
 .App-header {
   background-color: #282c34;
